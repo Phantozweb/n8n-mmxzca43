@@ -1,0 +1,17 @@
+{
+  "name": "focuscasex",
+  "version": "2.0.0",
+  "description": "FocusCaseX — 24/7 local clinical database engine for Termux",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "tunnel": "node tunnel-wrapper.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs-extra": "^11.2.0",
+    "crypto-js": "^4.2.0",
+    "localtunnel": "^2.0.2"
+  },
+  "license": "MIT"
+}
